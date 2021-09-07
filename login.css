@@ -1,0 +1,91 @@
+body{
+    padding-top: 100px;
+    background: linear-gradient(45deg, red, blue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Inputs>input[type="text"]
+{
+    border:none;
+    border-bottom:2px solid gainsboro;
+    background:none;
+    width: 75%;
+    height: 75%;
+    outline: none;
+
+
+}
+.Inputs>input[type="password"]
+{
+    border:none;
+    border-bottom:2px solid gainsboro;
+    background:none;
+    width: 75%;
+    height: 75%;
+    outline: none;
+}
+input[type=text]:focus,input[type=password]:focus{
+    color: white;
+  }
+#this{
+    text-align: center;
+    width:400px;
+    height:300px;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding-top:40px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#e66465, #9198e5);
+    
+}
+#this>h3{
+    color: gainsboro;
+    padding-bottom: 40px;
+}
+#b1,#b2{
+    background: none;
+    border: 1px solid white;
+}
+#b1:hover,#b2:hover{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+#link{
+    text-decoration: none;
+    color:white;
+}
+#link:hover{
+    text-decoration: underline white;
+}
+::placeholder {
+    color: white;
+  }
+.Inputs>span>img{
+    width: 5%;
+    height: 5%;
+    margin-right: 5px;
+}
+#togglePassword{
+    margin-left:-15px; 
+}
+#togglePassword:hover{
+    color: white;
+}
+.fas
+{
+    padding-right: 5px;
+}
+#b2>a,#b1>a{
+    text-decoration: none;
+    color: white;
+}
+#b2>a:hover,#b1>a:hover{
+    text-decoration: none;
+    color: black;
+}
